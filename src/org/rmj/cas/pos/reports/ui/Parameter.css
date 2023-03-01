@@ -1,0 +1,92 @@
+
+#btnExit{
+    -fx-border-width: 0px 0px 0px 5px;
+    -fx-border-radius: 0px;
+    -fx-background-radius: 0px;
+    -fx-background-color: #000000;
+}
+
+#glyphExit{
+    -fx-fill: #929292;
+}
+
+#btnExit:hover #glyphExit{
+    -fx-fill: #f37021;
+}
+
+.button{
+    -fx-border-width: 0px 0px 0px 5px;
+    -fx-border-radius: 0px;
+    -fx-background-radius: 0px;
+    -fx-text-fill: #000000;
+    -fx-background-color: #686868;
+}
+
+.button:focused{
+    -fx-border-width: 0px 0px 0px 0px;
+}
+
+.button:pressed{
+    -fx-text-fill: #FFFFFF;
+}
+
+.button:hover{
+    -fx-background-color: #929292;
+    -fx-text-fill: #FFFFFF;
+}
+
+.glyph-icon{
+    -fx-fill: #000000;
+}
+
+.button:hover .glyph-icon{
+    -fx-fill: #FFFFFF;
+}
+
+.text-field{
+   -fx-border-color: #000000;
+   -fx-border-width: 0.3px;
+}
+
+.text-area{
+   -fx-border-color: #000000;
+   -fx-border-width: 0.5px;
+}
+
+.text-area{
+   -fx-border-color: #000000;
+   -fx-border-width: 0.5px;
+}
+
+.check-box .box {
+-fx-background-color: white;
+-fx-border-color:black;
+-fx-border-radius:1px; 
+}
+
+.check-box:focused {
+-fx-background-color: #686868;
+}
+
+.check-box:selected .mark {
+-fx-background-color: white;
+}
+
+.check-box:selected .box {
+-fx-background-color: #28a3f4;
+}
+
+.combo-box-base{
+ -fx-border-color: black;
+ -fx-border-width: 0.4 0.4 0.4 0.4;
+}
+
+.text-input:disabled {
+-fx-opacity: 1;
+}
+
+.combo-box-base:disabled,
+.list-cell:disabled {
+  -fx-background-color: white; 
+  -fx-opacity: 1;
+}
